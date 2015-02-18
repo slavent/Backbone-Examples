@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="wrp">
+		<script type="text/template" id="item">
+			<div class="pic"><img src="<%= media.m %>"/></div>
+			<div class="photo-info">
+				<p><span>Tags: </span><%= tags %></p>
+				<p><span>Link: </span><a href="<%= link %>" target="_blank">Download</a></p>
+			</div>		
+		</script>
+	</div>
+
+	<script src="js/libs/jquery.js"></script>
+	<script src="js/libs/underscore-min.js"></script>
+	<script src="js/libs/backbone-min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
